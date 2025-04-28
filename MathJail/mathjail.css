@@ -1,0 +1,46 @@
+*{
+    background-color: #552583;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav-button {
+    background-color: #FDB927;
+    color: #552583;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.nav-button:hover {
+    transform: scale(1.05); /* Makes button slightly larger */
+    background-color: #FFD54F; /* Changes to lighter gold */
+    transition: all 0.3s ease; /* Makes the change smooth */
+}
+
+img{
+    width: 35%;
+        height: 550px;
+        position: center;
+        display:block;
+        margin:auto;
+        width:50;
+        border-radius: 15px; 
+}
+figure.image-container {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    
+}
+figcaption {
+    margin-top: 10px;
+    color: #FDB927;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #552583;
+    font-weight: bold;
+}

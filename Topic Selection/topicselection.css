@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    background-color: #552583;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: white;
+    color: #552583; /* Lakers purple */
+    padding: 15px 0;
+    margin: 0 auto; /* Center horizontally */
+    width: 80%; /* Take less than full width */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 10;
+    border-radius: 12px; /* Rounded corners */
+    max-width: 1000px; /* Maximum width */
+}
+
+button{
+    display: block;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #FDB927;
+    color: #552583;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topic-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px 30px; /* row gap, column gap */
+    width: 90%;
+    margin: 30px auto;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.topic-grid button {
+    width: 100%;
+    height: 100px; /* make buttons bigger */
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FDB927; /* Lakers gold */
+    color: #552583; /* Lakers purple */
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform .2s, background-color 0.2s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topic-grid button:hover {
+    transform: scale(1.05);
+    background-color: #FFD54F; /* lighter gold on hover */
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.nav-button {
+    background-color: #FDB927;
+    color: #552583;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    transition: transform .2s, background-color 0.2s;
+}
+
+.nav-button:hover {
+    transform: scale(1.05);
+    background-color: #FFD54F;
+}

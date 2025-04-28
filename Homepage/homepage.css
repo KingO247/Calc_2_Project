@@ -1,0 +1,66 @@
+*{
+    background-color: #552583;
+}
+
+body{
+    color:  #FDB927;
+    font-size: 30px;
+    text-align: center;
+    
+    
+    padding-top: 0px;
+    
+    
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: white;
+    color: #552583; /* Lakers purple */
+    padding: 15px 0;
+    margin: 0 auto; /* Center horizontally */
+    width: 80%; /* Take less than full width */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 10;
+    border-radius: 12px; /* Rounded corners */
+    max-width: 1000px; /* Maximum width */
+}
+ img{
+        width: 35%;
+        height: 550px;
+        position: center;
+        display:block;
+        margin:auto;
+        width:50;
+        border-radius: 15px !important;
+    }
+.main-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform .2s, background-color 0.2s;
+}
+.nav-button {
+    background-color: #FDB927;
+    color: #552583;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+}
+/* Button hover effect */
+.nav-button:hover {
+    transform: scale(1.05); /* Makes button slightly larger */
+    background-color: #FFD54F; /* Changes to lighter gold */
+    transition: all 0.3s ease; /* Makes the change smooth */
+}
+
+.copyright {
+    padding-top: 40px;
+}
+
