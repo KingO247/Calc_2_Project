@@ -41,11 +41,12 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 20px 30px; /* row gap, column gap */
+    gap: 15px 30px; /* row gap, column gap */
     width: 90%;
     margin: 30px auto;
     justify-items: center;
     margin-top: 30px;
+    margin-left: 250px;
 }
 
 .topic-grid button {
@@ -91,4 +92,13 @@ button{
 .nav-button:hover {
     transform: scale(1.05);
     background-color: #FFD54F;
+}
+
+img{
+    
+    width: 50%;
+    height: 500px;
+    display: block;
+    margin:auto;
+    border-radius: 12px;
 }
